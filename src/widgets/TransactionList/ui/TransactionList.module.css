@@ -1,0 +1,36 @@
+.wrapper {
+padding: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between; 
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+
+.income {
+  color: #2ecc71; 
+  font-weight: bold;
+}
+
+.expense {
+  color: #e74c3c; 
+  font-weight: bold;
+}
