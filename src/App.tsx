@@ -1,5 +1,5 @@
 import { DashboardPage } from './pages/dashboard/ui/DashboardPage';
-import './index.css'; // Импорт глобальных стилей, если они есть
+import './index.css'; 
 
 function App() {
     return (
